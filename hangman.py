@@ -3,8 +3,8 @@ import random
 def hangman(word):
     wrong = 0
     stages = ["",
-              "________          ",
-              "|                 ",
+              "_________         ",
+              "|        |        ",
               "|        |        ",
               "|        O        ",
               "|       /|\       ",
